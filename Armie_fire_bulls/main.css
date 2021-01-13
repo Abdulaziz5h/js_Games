@@ -1,0 +1,52 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background: rgba(28, 23, 57);
+}
+*{
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.scrore {
+    position: fixed;
+    top: 6px;
+    left: 12px;
+    color: #fff;
+    font-size: 20px;
+    user-select: none;
+}
+.game-over-ui {
+    width: 400px;
+    height: 240px;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+    color: #FE3939;
+    user-select: none;
+    border-radius: 10px;
+    transition: all .2s linear;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+}
+.game-over-ui strong {
+    font-size: 60px;
+    color: #494E70;
+    padding-bottom: 1rem;
+}
+
+.start-button {
+    border-radius: 10px;
+    background: #34db89;
+    border: none;
+    padding: 12px 30px;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
